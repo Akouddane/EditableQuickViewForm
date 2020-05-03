@@ -1,0 +1,269 @@
+<style>
+    .content {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        -webkit-box-shadow: 0px 10px 29px 4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 10px 29px 4px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 10px 29px 4px rgba(0, 0, 0, 0.75);
+        background: #fff5e5;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+        padding: 20px;
+        font-weight: 500;
+        color: #fffcf7;
+    }
+
+    .img {
+        -webkit-box-shadow: 0px 10px 29px 4px rgba(82, 82, 82, 0.75);
+        -moz-box-shadow: 0px 10px 29px 4px rgba(82, 82, 82, 0.75);
+        box-shadow: 0px 10px 29px 4px rgba(82, 82, 82, 0.75);
+        margin-bottom: 20px;
+    }
+    .img2{
+        margin: 12px 20px;
+        display: block;
+        -webkit-box-shadow: 0px 3px 11px 4px rgba(82, 82, 82, 0.35);
+        -moz-box-shadow: 0px 3px 11px 4px rgba(82, 82, 82, 0.35);
+        box-shadow: 0px 3px 11px 4px rgba(82, 82, 82, 0.35);
+    }
+
+    .imgtitle {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .title {
+        padding: 20px;
+    }
+
+    #content-table {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    #content-table ul {
+        margin-bottom: 0;
+    }
+
+    #content-table li {
+        list-style-type: none;
+    }
+
+    #content-table a {
+        cursor: pointer;
+    }
+
+    pre {
+        background: #e7e7e7 !important;
+    }
+
+    .btn-group-sm>.btn,
+    .btn-sm {
+        padding: 3px 10px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+
+    .btn-transparent {
+        color: #333;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        color: #3d3d3d;
+    }
+
+    .btn:hover {
+        color: #3d3d3d;
+    }
+
+    .up{ float: right; }
+</style>
+
+<html>
+
+<head>
+    <title>Editable Quick View Form</title>
+    <meta name="description" content="Create an editable quick view form in Dynamics CRM" />
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="images/favicon.ico">
+
+    <meta property="og:url" content="https://akouddane.github.io/EditableQuickViewForm/">
+    <meta property="og:title" content="Dynamics CRM Editable Quick View Form on GitHub">
+    <meta property="og:description" content="Create an editable quick view form in Dynamics CRM">
+    <meta property="og:image" content="images/repository-open-graph.png">
+    <meta property="og:site_name" content="Dynamics CRM Editable Quick View Form on GitHub">
+    <meta property="og:type" content="article">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="github.css">
+    <script src="jquery.js"></script>
+    <script src="highlight.pack.js"></script>
+
+    <script>
+        function scrollToElem(selector) {
+            debugger;
+            $("html, body").animate({ scrollTop: $(selector).offset().top - 10 }, 500);
+        }
+        function github() {
+            window.location = "https://github.com/Akouddane/EditableQuickViewForm";
+        }
+    </script>
+
+</head>
+
+<body>
+
+
+
+
+    <div id="container">
+        <div style="float: right; margin: 40px;" >
+            <a href="https://github.com/Akouddane/EditableQuickViewForm" class="btn btn-transparent btn-sm btn-flat"
+                type="button">
+                <img style="height: 26px; width: 26px" src="images/github.png">
+                <span style="font-size: 18px; line-height: 30px; display: inline-block; vertical-align: bottom;">Download on Github</span>
+            </a>
+        </div>
+
+
+        <div class="inner" style="width:80%">
+
+            <header>
+                <img src="images/logo.png" style="height: 60px" />
+                <h2>Create an editable quick view form in Dynamics CRM</h2>
+            </header>
+
+
+            <h1>Table of contents</h1>
+            <section id="content-table">
+                <ul>
+                    <li>
+                        <a onclick="scrollToElem('#how')">How it works</a>
+                    </li>
+                    <li>
+                        <a onclick="scrollToElem('#configuration')">Configuration</a>
+                        <ul>
+                            <li><a onclick="scrollToElem('#generalConfiguration')">PCF Parameters</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a onclick="scrollToElem('#downloads')">Solution Downloads</a>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section id="main_content">
+                <h1 id="how">How it works
+                    <button onclick="scrollToElem('#container')" class="btn btn-transparent btn-sm btn-flat up" type="button">
+                        <img style="height: 26px; width: 26px" src="images/top.png">
+                    </button>
+                </h1>
+                <p>
+                    EditableQuickViewForm allows to show and edit a regular quick view form inside a form.
+                    <br> 
+                    <p>
+                        <img src="images/demo1.png" class="img" style="width: 100%; max-width: 500px;">
+                    </p>
+                </p>
+
+                <hr>
+                <h1 id="configuration">Configuration
+                    <button onclick="scrollToElem('#container')" class="btn btn-transparent btn-sm btn-flat up" type="button">
+                        <img style="height: 26px; width: 26px" src="images/top.png">
+                    </button>
+                </h1>
+                <p>
+                    1. import the solution EditableQuickViewForm. <br>
+                    then go to main form in design mode and select the lookup you want to use for the quick view form
+                </p>
+                <p>
+                    2. Click on Custom Controls, Search EditableQuickViewForm, and select it
+                </p>
+                <p>
+                    <img src="images/view2.png" class="img" alt="" style="max-width: 800px;">
+                </p>
+                <p>
+                    3. Fill the parameters then save and publish customizations.
+                </p>
+
+                <h2 id="generalConfiguration">PCF Parameters
+                    <button onclick="scrollToElem('#container')" class="btn btn-transparent btn-sm btn-flat up" type="button">
+                        <img style="height: 26px; width: 26px" src="images/top.png">
+                    </button>
+                </h2>
+                <br>
+                <p>
+                    <img src="images/config1.png" class="img" alt="" style="max-width: 500px;">
+                </p>
+
+                <ul>
+                    <li>
+                        <span style="font-weight: bold">Lookup Attribute :</span> The lookup used in the form 
+                    </li>
+                    <li>
+                        <span style="font-weight: bold">Quick Form ID :</span> (Required) Guid of quick form view 
+                    </li>
+                    <li>
+                        <span style="font-weight: bold">Form Title :</span> (Optional) Title of the form 
+                    </li>
+                </ul>
+
+
+
+                <h1 id="downloads">Solution Downloads
+                    <button onclick="scrollToElem('#container')" class="btn btn-transparent btn-sm btn-flat up" type="button">
+                        <img style="height: 26px; width: 26px" src="images/top.png">
+                    </button>
+                </h1>
+                <p>
+                    <h4 id="header-4">Dynamics CRM Solution</h4>
+                    <p>
+                        <a href="https://github.com/Akouddane/EditableQuickViewForm/raw/master/dist/EditableQuickViewFormSolution_1_0_0_0_managed.zip">EditableQuickViewForm Solution 1.0.0.0</a>
+                    </p>
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+
+                <script>
+                    $(document).ready(function () {
+                        $('pre code').each(function (i, block) {
+                            hljs.highlightBlock(block);
+                        });
+                    });
+                </script>
+</body>
+
+</html>
