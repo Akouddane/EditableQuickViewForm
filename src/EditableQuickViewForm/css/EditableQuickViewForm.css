@@ -1,0 +1,358 @@
+.customControl {
+    border: 1px solid rgb(216, 216, 216);
+    margin: 0px 0px 0px -21px;
+    width: calc(100% + 21px) !important;
+    margin-top: -5px;
+}
+
+.mainDiv{
+    height: 100%;
+    width: 100%;
+    margin-bottom: -3px;
+    padding-bottom: 5px;
+}
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.ms-Label {
+    position: relative;
+    width: 20%;
+    text-align: left;
+    float: left;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ms-Image-image {
+    mix-blend-mode: multiply;
+}
+.ms-Image{
+    mix-blend-mode: multiply;
+}
+.formRow {
+    padding: 10px 5px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding-top: 5px !important;
+}
+.formRow:last-of-type {
+    border-bottom: 1px solid transparent !important;
+}
+
+.formLabel {
+    text-align: left;
+    padding-right: 0px !important;
+    padding-left: 15px !important;
+    width: 145px !important;
+    line-height: 1.2em;
+    font-size: 1rem;
+    display: inline-block;
+    font-weight: normal;
+    font-family: SegoeUI, "Segoe UI";
+    color: rgb(68, 68, 68);
+    padding-top: 5px;
+    vertical-align: top;
+}
+
+.formField {
+    text-align: left;
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+    width: calc(100% - 175px) !important;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 1rem;
+    display: inline-block;
+    font-weight: normal;
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI";
+    font-family: SegoeUI, "Segoe UI";
+    color: rgb(68, 68, 68);
+}
+.ms-TextField-fieldGroup>input{
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI";
+    font-family: SegoeUI, "Segoe UI";
+    font-weight: 600;
+    padding-right: 2rem !important;
+}
+.ms-TextField-fieldGroup>input:hover{
+    font-weight: 400;
+}
+.ms-TextField-fieldGroup>input:active{
+    font-weight: 400;
+}
+
+.formLabelText{
+    width: calc(100% - 10px);
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+.formLabelRequired{
+    width: 10px;
+    display: inline-block;
+    color: #fd6256;
+    vertical-align: top;
+    line-height: 1rem;
+    text-align: right;
+    font-weight: 600;
+}
+.formLabelRecommended{
+    width: 10px;
+    display: inline-block;
+    color: rgb(98, 150, 207);
+    vertical-align: top;
+    line-height: 1rem;
+    font-weight: 600;
+    text-align: right;
+    font-size: .85rem;
+}
+
+.ms-TextField-fieldGroup {
+    height: auto !important;
+    border-color: transparent;
+}
+.ms-TextField-field {
+    font-size: 1rem !important;
+    padding: 0.5rem !important;
+    height: 2.3rem !important;
+}
+.ms-TextField-fieldGroup>i {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+
+.ms-ComboBox::after {
+    border-color: transparent;
+}
+.ms-ComboBox::after:hover {
+    border-color: rgb(51, 51, 51);;
+}
+.ms-ComboBox {
+    font-family: SegoeUI, "Segoe UI";
+    font-weight: 600;
+    height: 2.5rem;
+}
+.ms-ComboBox:hover {
+    font-weight: 400;
+}
+.ms-ComboBox>button{
+    background-color: white !important;
+}
+.ms-ComboBox>input {
+    font-size: 1rem;
+    height: calc(100% - 1px);
+}
+.ms-ComboBox-CaretDown-button>span>i {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+
+.ms-Dropdown-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    height: 2.5rem !important;
+    border-color: transparent;
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI";
+    font-family: SegoeUI, "Segoe UI";
+}
+.ms-Dropdown-caretDownWrapper {
+    opacity: 0;
+    line-height: 2.3rem;
+}
+.ms-Dropdown:hover>.ms-Dropdown-caretDownWrapper{
+    opacity: 1;
+}
+.ms-Dropdown:hover>.ms-Dropdown-title{
+    font-weight: 400;
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI";
+    font-family: SegoeUI, "Segoe UI";
+    height: 2.5rem !important;
+    line-height: 2.5rem;
+}
+.ms-Dropdown:active>.ms-Dropdown-title{
+    font-weight: 400;
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI";
+    font-family: SegoeUI, "Segoe UI";
+}
+.ms-Dropdown-callout{
+    font-weight: 400;
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI";
+    font-family: SegoeUI, "Segoe UI";
+}
+
+.ms-Dropdown-items>button {
+    font-size: 1rem;
+    min-height: 3rem;
+}
+.ms-BasePicker-text {
+    border-color: transparent;
+    height: 2.3rem;
+    min-height: 2.3rem;
+    /* padding: 1px; */
+    min-width: 100%;
+}
+.ms-BasePicker-text>input {
+    font-weight: 600;
+    font-size: 1rem !important;
+    /* padding: 0.5rem !important; */
+    height: 2.3rem !important;
+    line-height: 2.3rem;
+    width: 100%;
+}
+.ms-Persona{
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI" !important;
+    font-family: SegoeUI, "Segoe UI" !important;
+}
+.ms-Persona-primaryText {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI" !important;
+    font-family: SegoeUI, "Segoe UI" !important;
+}
+.ms-PickerPersona-container.is-selected>div>div>div>.ms-Persona-primaryText{
+    color: black !important;
+}
+/* .ms-Persona-initials {
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    margin: 0.25rem;
+} */
+.ms-Persona-coin {
+    margin-left: 0.25rem;
+}
+.ms-PickerPersona-container {
+    border-radius: 0;
+    margin: 0;
+    height: 2.1rem;
+    background-color: transparent;
+}
+.ms-PickerPersona-container.is-selected {
+    background-color: lightgray !important;
+}
+
+.ms-BasePicker-text:hover>.ms-BasePicker-itemsWrapper>.ms-PickerPersona-container>.ms-PickerItem-removeButton{
+    opacity: 1;
+}
+.ms-BasePicker-text:hover>.ms-BasePicker-itemsWrapper>.ms-PickerPersona-container>.ms-PickerItem-content>.ms-Persona>.ms-Persona-details>.ms-Persona-primaryText{
+    font-weight: 400 !important;
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI" !important;
+    font-family: SegoeUI, "Segoe UI" !important;
+}
+.ms-PickerItem-removeButton {
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    opacity: 0;
+    border-radius: 0;
+}
+.ms-MessageBar-icon{
+    font-size: 1rem;
+    min-height: 1rem;
+    min-width: 1rem;
+    line-height: 1rem;
+    font-weight: 600;
+}
+.ms-MessageBar-icon>i{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.ms-MessageBar-text{
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI";
+    font-family: SegoeUI, "Segoe UI";
+    font-size: .8rem;
+    color: #bf2216;
+    font-weight: 600;
+    line-height: .8rem;
+}
+
+.infoMessageBar-text{
+    background: #e0f5ff;
+}
+.infoMessageBar-text>.ms-MessageBar-content>.ms-MessageBar-text{
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI";
+    font-family: SegoeUI, "Segoe UI";
+    font-size: .8rem;
+    color: #0c7cbd !important;
+    font-weight: 600;
+}
+.infoMessageBar-text>.ms-MessageBar-content>.ms-MessageBar-icon>i{
+    color: #0c7cbd !important;
+    font-weight: 600;
+}
+.ms-MessageBar-innerText{
+    line-height: 1rem;
+}
+
+::placeholder {
+	font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI" !important;
+    font-family: SegoeUI, "Segoe UI" !important;
+	font-weight: 600 !important;
+	font-size: 1rem !important;
+}
+
+
+.formButton {
+    font-size: 1rem;
+    padding: 6px 10px;
+    height: auto;
+    width: auto;
+    min-width: auto;
+    margin: 0px 0px;
+}
+.formHeaderRow {
+    padding: 0px 0px 7px 10px;
+}
+.formTitle {
+    display: inline-block;
+    font-family: "Segoe UI Regular", SegoeUI, "Segoe UI";
+    font-size: 1.21429rem;
+    width: calc(100% - 170px);
+    padding: 10px 0px 6px 3px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(51, 51, 51);
+}
+.formButtonRow {
+    text-align: right;
+    display: block;
+    float: right;
+}
+
+
+.customFormContainer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.loader{
+    background-color: white;
+    z-index: 999;
+    display: block;
+    height: 200px;
+    width: 100%;
+    min-height: 200px;
+}
+.loaderContent{
+    margin: auto;
+    height: 70px;
+    text-align: center;
+    margin-top: 80px;
+}
+.loaderProgress{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.loaderText{
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: SegoeUI, "Segoe UI";
+}

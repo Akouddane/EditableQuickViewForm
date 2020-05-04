@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="EasyCrmEQVF" constructor="EditableQuickViewForm" version="0.0.24" display-name-key="EditableQuickViewForm" description-key="EditableQuickViewForm description" control-type="standard">
+    <property name="lookupAttribute" display-name-key="Lookup Attribute" description-key="Lookup Attribute" of-type-group="typesgroup" usage="bound" required="true" />
+    <property name="quickFormId" display-name-key="Quick Form ID" description-key="Quick Form ID (Guid)" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="formTitle" display-name-key="Form Title" description-key="(Optional) Form Title" of-type="SingleLine.Text" usage="input" required="false" />
+    <type-group name="typesgroup">
+      <type>SingleLine.Text</type>
+      <!-- 
+			<type>Lookup.Simple</type>
+			<type>Lookup.Customer</type>
+			<type>Lookup.Owner</type>
+			<type>Lookup.Regarding</type>
+			<type>Lookup.PartyList</type>
+		-->
+    </type-group>
+    <!-- Uncomment above -->
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/EditableQuickViewForm.css" order="1" />
+      <resx path="strings/EditableQuickViewForm.1033.resx" version="1.0.0" />
+      <resx path="strings/EditableQuickViewForm.1036.resx" version="1.0.0" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
