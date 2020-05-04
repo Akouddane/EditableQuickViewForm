@@ -9,3 +9,5 @@ Dynamics CRM Solution on **[dist](https://github.com/Akouddane/EditableQuickView
 ---
 
 ![](https://github.com/Akouddane/EditableQuickViewForm/blob/master/docs/images/EditableQuickViewForm.gif)
+
+![](https://github.com/Akouddane/EditableQuickViewForm/blob/master/docs/images/EditableQuickViewForm_2.gif)
