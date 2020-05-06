@@ -4,7 +4,8 @@
 
 Documentation on : https://akouddane.github.io/EditableQuickViewForm
 
-**Since using a lookup type attribute in binding controls is not permitted yet in current tools, this version is considered non supported. A temporary supported version is available since then
+
+**Since using a lookup type attribute in binding controls is not permitted yet in current tools, this version is considered non supported. A temporary supported version is available since then**
 
 Dynamics CRM Solution on **[dist](https://github.com/Akouddane/EditableQuickViewForm/tree/master/dist)** directory : 
 * **[EditableQuickViewForm 1.0.0.2](https://github.com/Akouddane/EditableQuickViewForm/blob/master/dist/EditableQuickViewFormSolution_1_0_0_2_managed.zip?raw=true)**
