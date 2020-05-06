@@ -169,6 +169,10 @@
                         <ul>
                             <li><a onclick="scrollToElem('#generalConfiguration')">PCF Parameters</a></li>
                         </ul>
+                        <a onclick="scrollToElem('#configurationsupported')">Configuration (for supported version)</a>
+                        <ul>
+                            <li><a onclick="scrollToElem('#generalConfiguration')">PCF Parameters</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a onclick="scrollToElem('#downloads')">Solution Downloads</a>
@@ -197,6 +201,10 @@
                         <img style="height: 26px; width: 26px" src="images/top.png">
                     </button>
                 </h1>
+                <p style="color: #E91E63;">
+                    Since using a lookup type attribute in binding controls is not permitted yet in current tools, this version is considered non supported. 
+                    If you want a supported version, go to next section for the supported version.
+                </p>
                 <p>
                     1. import the solution EditableQuickViewForm. <br>
                     then go to main form in design mode and select the lookup you want to use for the quick view form
@@ -233,7 +241,51 @@
                     </li>
                 </ul>
 
+                <hr>
+                <h1 id="configuration">Configuration (for supported version)
+                    <button onclick="scrollToElem('#container')" class="btn btn-transparent btn-sm btn-flat up" type="button">
+                        <img style="height: 26px; width: 26px" src="images/top.png">
+                    </button>
+                </h1>
+                
+                <p>
+                    1. import the solution EditableQuickViewForm0. <br>
+                    then go to main form in design mode and select any text field on the form
+                </p>
+                <p>
+                    2. Click on Custom Controls, Search EditableQuickViewForm0, and select it
+                </p>
+                <p>
+                    <img src="images/view3.png" class="img" alt="" style="max-width: 800px;">
+                </p>
+                <p>
+                    3. Fill the parameters then save and publish customizations.
+                </p>
 
+                <h2 id="generalConfiguration">PCF Parameters
+                    <button onclick="scrollToElem('#container')" class="btn btn-transparent btn-sm btn-flat up" type="button">
+                        <img style="height: 26px; width: 26px" src="images/top.png">
+                    </button>
+                </h2>
+                <br>
+                <p>
+                    <img src="images/config2.png" class="img" alt="" style="max-width: 500px;">
+                </p>
+
+                <ul>
+                    <li>
+                        <span style="font-weight: bold">Any Text Attribute :</span> The lookup used in the form 
+                    </li>
+                    <li>
+                        <span style="font-weight: bold">Lookup Attribute :</span> The lookup used in the form 
+                    </li>
+                    <li>
+                        <span style="font-weight: bold">Quick Form ID :</span> (Required) Guid of quick form view 
+                    </li>
+                    <li>
+                        <span style="font-weight: bold">Form Title :</span> (Optional) Title of the form 
+                    </li>
+                </ul>
 
                 <h1 id="downloads">Solution Downloads
                     <button onclick="scrollToElem('#container')" class="btn btn-transparent btn-sm btn-flat up" type="button">
@@ -242,8 +294,12 @@
                 </h1>
                 <p>
                     <h4 id="header-4">Dynamics CRM Solution</h4>
+                    <p></p>
                     <p>
-                        <a href="https://github.com/Akouddane/EditableQuickViewForm/raw/master/dist/EditableQuickViewFormSolution_1_0_0_2_managed.zip">EditableQuickViewForm Solution 1.0.0.1</a>
+                        <a href="https://github.com/Akouddane/EditableQuickViewForm/raw/master/dist/EditableQuickViewFormSolution_1_0_0_2_managed.zip">EditableQuickViewForm Solution 1.0.0.2</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/Akouddane/EditableQuickViewForm/raw/master/dist/supported/EditableQuickViewForm0Solution_1_0_0_2_managed.zip">EditableQuickViewForm0 Solution 1.0.0.2 (Supported version)</a>
                     </p>
                 </p>
                 <br>
