@@ -584,8 +584,10 @@ export class EditableQuickViewForm implements ComponentFramework.StandardControl
 			self._context.webAPI.retrieveRecord(self._fieldValue?.entityType??"", self._fieldValue?.id??"", "?$expand=transactioncurrencyid($select=currencysymbol)").then(
 				result => {
 					if (result.hasOwnProperty("transactioncurrencyid")) {
-						var symbol = result["transactioncurrencyid"]["currencysymbol"];
-						self.controlsStrings.currency = symbol;
+						if(result["transactioncurrencyid"]){
+							var symbol = result["transactioncurrencyid"]["currencysymbol"];
+							self.controlsStrings.currency = symbol;
+						}
 					}
 					callback();
 				},

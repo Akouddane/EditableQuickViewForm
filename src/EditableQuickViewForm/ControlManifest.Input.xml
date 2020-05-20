@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="EasyCrmEQVF" constructor="EditableQuickViewForm" version="0.0.24" display-name-key="EditableQuickViewForm" description-key="EditableQuickViewForm description" control-type="standard">
+  <control namespace="EasyCrmEQVF" constructor="EditableQuickViewForm" version="0.0.33" display-name-key="EditableQuickViewForm" description-key="EditableQuickViewForm description" control-type="standard">
     <property name="lookupAttribute" display-name-key="Lookup Attribute" description-key="Lookup Attribute" of-type-group="typesgroup" usage="bound" required="true" />
     <property name="quickFormId" display-name-key="Quick Form ID" description-key="Quick Form ID (Guid)" of-type="SingleLine.Text" usage="input" required="true" />
     <property name="formTitle" display-name-key="Form Title" description-key="(Optional) Form Title" of-type="SingleLine.Text" usage="input" required="false" />
